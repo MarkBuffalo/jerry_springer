@@ -79,7 +79,7 @@ class Spring4Shell:
         banner += f"b╚══════╝a╚═╝     b╚═╝  ╚═╝a╚═╝b╚═╝  ╚═══╝a ╚═════╝ b╚══════╝a╚═╝  ╚═╝g\n"
         banner += "\n...show!\n\n"
 
-        print(banner.replace("a", self.h).replace("b", self.b).replace("g", self.g))
+        print(banner.replace("a", self.d).replace("b", self.b).replace("g", self.g))
 
     def c_print(self, output):
         print(self.colorize_output(output))

